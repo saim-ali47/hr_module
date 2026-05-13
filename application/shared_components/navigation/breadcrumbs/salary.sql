@@ -1,0 +1,20 @@
+prompt --application/shared_components/navigation/breadcrumbs/salary
+begin
+--   Manifest
+--     MENU: SALARY
+--   Manifest End
+wwv_flow_imp.component_begin (
+ p_version_yyyy_mm_dd=>'2024.11.30'
+,p_release=>'24.2.0'
+,p_default_workspace_id=>1466982788095834
+,p_default_application_id=>101
+,p_default_id_offset=>0
+,p_default_owner=>'TEST'
+);
+wwv_flow_imp_shared.create_menu(
+ p_id=>wwv_flow_imp.id(2906188399728929)
+,p_name=>'SALARY'
+);
+wwv_flow_imp.component_end;
+end;
+/
